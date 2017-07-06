@@ -92,18 +92,7 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                     </ul>
                 </section>
             </div>
-
-            <div class="col-mb-12 col-tb-4" role="complementary">
-                <section class="latest-link">
-                    <h3><?php _e('官方最新日志'); ?></h3>
-                    <div id="typecho-message">
-                        <ul>
-                            <li><?php _e('读取中...'); ?></li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-        </div>
+       </div>
     </div>
 </div>
 

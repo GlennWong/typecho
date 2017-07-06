@@ -33,7 +33,7 @@
     <section class="widget">
 		<h3 class="widget-title"><?php _e('归档'); ?></h3>
         <ul class="widget-list">
-            <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
+            <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=Y年m月')
             ->parse('<li><a href="{permalink}">{date}</a></li>'); ?>
         </ul>
 	</section>
@@ -51,7 +51,6 @@
             <?php endif; ?>
             <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
             <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
-            <li><a href="http://www.typecho.org">Typecho</a></li>
         </ul>
 	</section>
     <?php endif; ?>
