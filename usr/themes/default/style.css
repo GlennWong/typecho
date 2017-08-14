@@ -43,18 +43,18 @@ pre code {
 blockquote {
   margin: 1em 0;
   padding-left: 1.5em;
-  border-left: 4px solid #eee;
+  border-left: 4px dashed #eee;
   color: #666;
 }
 
 table {
-  border: 1px solid #ddd;
+  border: 1px dashed #ddd;
   width: 100%;
 }
 table th,
 table td {
   padding: 5px 10px;
-  border: 1px solid #eee;
+  border: 1px dashed #eee;
 }
 table th {
   background: #f3f3f3;
@@ -70,7 +70,7 @@ input[type="url"],
 input[type="password"],
 textarea {
   padding: 5px;
-  border: 1px solid #E9E9E9;
+  border: 1px dashed #E9E9E9;
   width: 100%;
 
   border-radius: 2px;
@@ -88,7 +88,7 @@ textarea {
 .post-content a,
 .widget a,
 .comment-content a {
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px dashed #EEE;
 }
 
 .post-meta a:hover,
@@ -116,7 +116,7 @@ textarea {
 
 #header {
   padding-top: 35px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px dashed #EEE;
 }
 
 #logo {
@@ -142,7 +142,7 @@ textarea {
   display: block;
   margin-right: -1px;
   padding: 0 20px;
-  border: 1px solid #EEE;
+  border: 1px dashed #EEE;
   border-bottom: none;
   height: 32px;
   line-height: 32px;
@@ -194,7 +194,7 @@ textarea {
 
 .post {
   padding: 15px 0 20px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px dashed #EEE;
 }
 .post-title {
   margin: .83em 0;
@@ -210,7 +210,7 @@ textarea {
   display: inline-block;
   margin: 0 8px 0 0;
   padding-left: 12px;
-  border-left: 1px solid #EEE;
+  border-left: 1px dashed #EEE;
 }
 .post-meta li:first-child {
   margin-left: 0;
@@ -292,7 +292,7 @@ textarea {
 .comment-list li {
   padding: 14px;
   margin-top: 10px;
-  border: 1px solid #EEE;
+  border: 1px dashed #EEE;
 }
 .comment-list li.comment-level-odd {
   background: #F6F6F3;
@@ -328,7 +328,7 @@ textarea {
 /* Comment reply */
 .comment-list .respond {
   margin-top: 15px;
-  border-top: 1px solid #EEE;
+  border-top: 1px dashed #EEE;
 }
 .respond .cancel-comment-reply {
   float: right;
@@ -412,7 +412,7 @@ textarea {
 .post-content hr, .comment-content hr {
   margin: 2em auto;
   width: 100px;
-  border: 1px solid #E9E9E9;
+  border: 1px dashed #E9E9E9;
   border-width: 2px 0 0 0;
 }
 
