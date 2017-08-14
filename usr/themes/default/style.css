@@ -18,14 +18,14 @@ body {
 }
 
 a {
-  color: #3354AA;
+  color: #666;
   text-decoration: none;
 }
 a:hover, a:active {
   color: #444;
 }
 pre, code { 
-  background: #F3F3F3;
+  background: #F9F9F9;
   font-family: Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
   font-size: .92857em;
 }
@@ -61,7 +61,7 @@ table th {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei","Microsoft Yahei", sans-serif;
+  font-family: "宋体", "WenQuanYi Micro Hei","Microsoft Yahei", sans-serif;
 }
 
 input[type="text"],
@@ -151,7 +151,7 @@ textarea {
 }
 #nav-menu a:hover,
 #nav-menu .current {
-  background: #F6F6F6;
+  background: #F9F9F9;
 }
 
 /* Search */
