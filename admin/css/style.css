@@ -754,7 +754,7 @@ select {
 /* line 306, ../scss/style.scss */
 .typecho-login {
   display: table-cell;
-  padding: 30px 0 100px;
+  padding: 30px 0 l20px;
   width: 280px;
   text-align: center;
   vertical-align: middle; }
