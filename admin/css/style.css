@@ -493,6 +493,11 @@ select {
   font-weight: bold; }
 
 /* line 94, ../scss/_header.scss */
+@media (max-width: 768px) {
+  .typecho-head-nav .operate {
+    display: none;
+  }
+}
 .typecho-head-nav .operate {
   float: right; }
 
