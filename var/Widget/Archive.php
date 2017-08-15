@@ -1673,11 +1673,11 @@ class Widget_Archive extends Widget_Abstract_Contents
         }
 
         if (!empty($allows['generator'])) {
-            $header .= '<meta name="generator" content="' . $allows['generator'] . '" />' . "\n";
+            //$header .= '<meta name="generator" content="' . $allows['generator'] . '" />' . "\n";
         }
 
         if (!empty($allows['template'])) {
-            $header .= '<meta name="template" content="' . $allows['template'] . '" />' . "\n";
+            //$header .= '<meta name="template" content="' . $allows['template'] . '" />' . "\n";
         }
 
         if (!empty($allows['pingback'])) {

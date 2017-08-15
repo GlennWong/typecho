@@ -23,7 +23,6 @@
     <script src="//cdnjscn.b0.upaiyun.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-    <!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header(); ?>
 </head>
 <body>
