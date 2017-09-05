@@ -358,8 +358,8 @@ textarea {
   font-weight: normal;
 }
 .widget-list {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding: 0 0 0 16px;
 }
 .widget-list li {
   margin: 5px 0;
