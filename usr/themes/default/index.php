@@ -1,10 +1,10 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
+ * 这是 Typecho 1.0 系统的一套默认皮肤加成
  * 
  * @package Typecho Replica Theme 
- * @author Typecho Team
- * @version 1.2
+ * @author Typecho Team & Glen
+ * @version 1.0
  * @link http://typecho.org
  */
 
